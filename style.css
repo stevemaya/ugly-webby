@@ -1,15 +1,21 @@
 h1 {
     color: #111;
     font-family: 'Helvetica Neue', sans-serif;
-    font-size: 275px;
+    font-size: 10px;
     font-weight: bold;
     letter-spacing: -1px;
     line-height: 1;
-    text-align: center;
+    text-align: right;
+}
+
+h3 {
+    color: rgb(70, 0, 108);
+    font-family: fantasy;
+    letter-spacing:75px 
 }
 
 p {
-    color: #685206;
+    color: #fff312;
     font-family: 'Helvetica Neue', sans-serif;
     font-size: 14px;
     line-height: 24px;
@@ -20,8 +26,8 @@ p {
 
 textarea {
     margin: 20px;
-    width: 300px;
-    height: 150px;
+    width: 400px;
+    height: 15px;
 }
 
 ul, ol {
@@ -49,4 +55,39 @@ form {
 input, textarea {
     padding:5px;
     margin:5px
+}
+
+body {
+    background-color: #685206;
+}
+
+.thingies {
+    color: chartreuse;
+    font-size: xx-large;
+    font-family: cursive;
+}
+
+.thingies2 {
+    color: rgb(212, 137, 8);
+    font-size: 14px;
+    text-align: center;
+}
+
+#ssn {
+color: cyan;
+}
+
+#hahaha {
+    background-color: indianred;
+    background:;
+}
+
+#ssn2 {
+    color: rgb(209, 14, 115);
+}
+
+.bob {
+    background-color: green;
+    color: blue;
+    text-align: right;
 }
